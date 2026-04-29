@@ -2,6 +2,9 @@
 
 <img width="1321" height="960" alt="Screenshot 2026-04-29 131356" src="https://github.com/user-attachments/assets/01c4762c-eccc-4be8-bc7c-e4757865f2c1" />
 
+<img width="863" height="444" alt="image" src="https://github.com/user-attachments/assets/ec168aa5-71f1-450b-907a-016700ee8a58" />
+
+
 # 🤖 JARVIS — Voice RAG Agent
 ### Talk to your computer. It talks back. It takes action.
 
