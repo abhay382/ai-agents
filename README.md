@@ -124,7 +124,7 @@ voice_rag_agent/
 ├── .env.example               ← copy to .env and add API key
 │
 ├── core/
-│   ├── agent.py              ← Claude agentic brain + tool loop
+│   ├── agent.py              ←  agentic brain + tool loop
 │   └── voice.py              ← Whisper STT + pyttsx3 TTS
 │
 ├── rag/
@@ -177,5 +177,16 @@ JARVIS will automatically read them and use them when answering!
 - You can use text input while voice is processing
 
 ---
-
+🎙 Voice Input (Whisper STT)
+        ↓
+  RAG lookup in ChromaDB
+  (your personal documents)
+        ↓
+  Gemini 2.0 Flash API
+  (system prompt + context + history)
+        ↓
+  Tool execution if needed
+  (open Chrome, read file, run command…)
+        ↓
+🔊 Spoken Response (pyttsx3 TTS)
 *Built with: Claude (Anthropic) · OpenAI Whisper · ChromaDB · pyttsx3 · tkinter*
