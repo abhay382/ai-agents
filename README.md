@@ -176,6 +176,23 @@ JARVIS will automatically read them and use them when answering!
 - Tool activity (what JARVIS is doing on your PC) shows in the right panel
 - You can use text input while voice is processing
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ---
 🎙 Voice Input (Whisper STT)
         ↓
@@ -189,4 +206,13 @@ JARVIS will automatically read them and use them when answering!
   (open Chrome, read file, run command…)
         ↓
 🔊 Spoken Response (pyttsx3 TTS)
-*Built with: Claude (Anthropic) · OpenAI Whisper · ChromaDB · pyttsx3 · tkinter*
+
+
+
+
+
+
+
+
+
+*Built with:  · OpenAI Whisper · ChromaDB · pyttsx3 · tkinter*
