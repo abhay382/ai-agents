@@ -1,0 +1,32 @@
+# ================================================================
+#  JARVIS Voice RAG Agent — requirements for Python 3.10 Windows
+#  NO torch  NO transformers  NO sentence-transformers
+#  Install:  pip install -r requirements.txt
+# ================================================================
+
+# ── Voice Input (STT) ──────────────────────────────────────────
+SpeechRecognition==3.16.1
+pyaudio==0.2.14
+
+# ── Voice Output (TTS) ────────────────────────────────────────
+pyttsx3==2.99
+
+# ── Gemini LLM ────────────────────────────────────────────────
+google-generativeai==0.8.6
+
+# ── RAG Vector Store (no torch, uses onnxruntime internally) ──
+chromadb==1.0.9
+
+# ── Computer Control Tools ────────────────────────────────────
+pyautogui==0.9.54
+pyperclip==1.9.0
+psutil==7.2.0
+duckduckgo-search==7.5.5
+
+# ── GUI ───────────────────────────────────────────────────────
+Pillow==11.2.1
+
+# ── Utilities ─────────────────────────────────────────────────
+python-dotenv==1.2.2
+rich==13.9.4
+requests==2.32.3
